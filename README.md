@@ -18,4 +18,4 @@ To use the bookmarklet:
 4. If you want to translate into a different language, just pick a different language in the target language dropdown
 5. Microsoft Translator should automatically detect the from language, but if it doesn't, just change it in the from language dropdown
 
-If the bookmarklet stops working, it's probably because Microsoft has changed the Translator URL and/or paramaters. You can try to fix it yourself, but please let me know.
+If the bookmarklet stops working, it's probably because Microsoft has changed the Translator URL and/or parameters. You can try to fix it yourself, but please let me know.
