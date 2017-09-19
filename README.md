@@ -3,9 +3,11 @@ Since Microsoft has removed their bookmarklet for their Microsoft Translator, wh
 
 To add it to your web browser:
 1. Make sure your bookmarks toolbar is visible
-2. Highlight the entire line of code
+2. Highlight the entire line of code below
 3. Drag the code somewhere on your bookmarks toolbar
 4. Afterwards you can rename it to something you'll remember, like "MT", so it doesn't take up so much space
+
+code:
 
 javascript:void(window.open('http://www.microsofttranslator.com/bv.aspx?from=&to=en&a='+location.href));
 
