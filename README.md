@@ -9,7 +9,7 @@ To add it to your web browser:
 
 code:
 
-javascript:void(window.open('http://www.microsofttranslator.com/bv.aspx?from=&to=en&a='+location.href));
+javascript:void(window.open('https://www.translatetheweb.com/?ref=TVert&from=&to=en&a='+location.href));
 
 To use the bookmarklet:
 1. Navigate to a web page in a different language
