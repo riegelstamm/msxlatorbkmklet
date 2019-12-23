@@ -25,3 +25,12 @@ If the foreign language is not properly detected, use the *From* menu in the Web
 To translate to a different language, use the *To* menu. 
 
 If the bookmarklet stops working, it may be due to Microsoft changing the URL and/or parameters. You can try to fix it yourself, but please let me know.
+
+## Limitations
+
+A site's [Content Security Policy](https://wikipedia.org/wiki/Content_Security_Policy) (CSP) may prevent use of bookmarklets such as this. CSP can be found here in GitHub; at various Mozilla sites; and so on. 
+
+Microsoft's service may be unable to translate some types of page. Examples: 
+
+* https://discourse.mozilla.org/t/topic/15069 translation from Arabic to English results in a blank page
+* http://forums.mozillazine.org/viewtopic.php?f=11&t=3055133 translation from English to any language may fail, with an on-screen invitation to try again; retrying may not lead to a translation. 
