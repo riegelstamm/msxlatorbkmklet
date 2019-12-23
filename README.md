@@ -1,21 +1,27 @@
-# Microsoft / Bing Translator Bookmarklet
-Since Microsoft has removed their bookmarklet for their Microsoft Translator, which is also used by Bing, I created this simple bookmarklet that does the same thing.
+# Microsoft Web Translator bookmarklet
 
-To add it to your web browser:
-1. Make sure your bookmarks toolbar is visible
-2. Highlight the entire line of code below
-3. Drag the code somewhere on your bookmarks toolbar
-4. Afterwards you can rename it to something you'll remember, like "MT", so it doesn't take up so much space
+Microsoft Web Translator provides the *Translate this page* service in Bing search results. 
 
-code:
+Since Microsoft removed their bookmarklet for the service, I created this simple bookmarklet that uses the service to translate to English.
 
-javascript:void(window.open('https://www.translatetheweb.com/?ref=TVert&from=&to=en&a='+location.href));
+To add the bookmarklet:
+1. Make your bookmarks toolbar visible
+2. Select the entire line of code below
+3. Drag the selection to a free space in your bookmarks toolbar
+4. Rename the bookmarklet to something memorable, like "MWT", to take less space.
+
+Code:
+
+`javascript:void(window.open('https://www.translatetheweb.com/?ref=TVert&from=&to=en&a='+location.href));`
 
 To use the bookmarklet:
-1. Navigate to a web page in a different language
-2. Click the "MT" button, or whatever you named it
-3. A new window or tab should open that will translate the page into English. 
-4. If you want to translate into a different language, just pick a different language in the target language dropdown
-5. Microsoft Translator should automatically detect the from language, but if it doesn't, just change it in the from language dropdown
+1. Browse a web page in a foreign language
+2. Click the bookmarklet.
 
-If the bookmarklet stops working, it's probably because Microsoft has changed the Translator URL and/or parameters. You can try to fix it yourself, but please let me know.
+The translation should appear in a new tab (or new page).
+
+If the foreign language is not properly detected, use the *From* menu in the Web Translator toolbar. 
+
+To translate to a different language, use the *To* menu. 
+
+If the bookmarklet stops working, it may be due to Microsoft changing the URL and/or parameters. You can try to fix it yourself, but please let me know.
